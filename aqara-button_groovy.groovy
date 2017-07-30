@@ -1,6 +1,6 @@
  *  Xiaomi Zigbee Button\
  *\
- *  Modified by RaveTam from Eric Maycock implementation below. Added to support Holdable Button and Battery status reporting\
+ *  Modified by Kenneth Evers. Added to support the square model of the Xiamo Aqara button switch device - but this DTH can NOT handle long press or hold press\
  *  https://github.com/erocm123/SmartThingsPublic/blob/master/devicetypes/erocm123/xiaomi-smart-button.src/xiaomi-smart-button.groovy\
  *\
  *  Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except\
@@ -14,7 +14,7 @@
  *\
  */\
 metadata \{\
-	definition (name: "Aqara Button Switch", namespace: "lazcad", author: "RaveTam") \{\
+	definition (name: "Aqara Button Switch", namespace: "lazcad", author: "KennethEvers") \{\
 		capability "Battery"\
         capability "Button"\
         capability "Refresh"\
